@@ -17,6 +17,7 @@ cd ${PBS_O_WORKDIR}
 NPROCS='wc -l < $PBS_NODEFILE'
 echo This job has allocated $NPROCS nodes
 
+module load sratoolkit/2.10.0
 module load tools
 module load jre/1.8.0
 module load bbmap/38.35
