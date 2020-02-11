@@ -11,4 +11,4 @@ cd $PBS_O_WORKDIR
 
 base=__BASE__
 
-fastq-dump --gzip --defline-seq '@$sn[_$rn]/$ri' --outdir "02_data/assembly/" --split-files $base
+fastq-dump --gzip --defline-seq '@$sn[_$rn]/$ri' --outdir "02_data/" --split-files $base
